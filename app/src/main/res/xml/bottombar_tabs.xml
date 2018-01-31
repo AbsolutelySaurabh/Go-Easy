@@ -1,0 +1,15 @@
+<tabs>
+    <tab
+        id="@+id/tab_groups"
+        icon="@drawable/ic_group_black_24dp"
+        title="Groups"
+        barColorWhenSelected="#00695c"
+        badgeHidesWhenActive="true"        />
+
+    <tab
+        id="@+id/tab_chat"
+        icon="@drawable/ic_chat_black_24dp"
+        title="Chat"
+        barColorWhenSelected="#00695c"
+        badgeHidesWhenActive="true"        />
+</tabs>

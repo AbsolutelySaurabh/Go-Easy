@@ -1,0 +1,152 @@
+<resources>
+
+    <style name="PopMovies" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/dark_green</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
+
+    <style name="NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:listDivider">@color/white</item>
+    </style>
+
+    <style name="SignInScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/dark_green</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:listDivider">@color/white</item>
+    </style>
+
+    <!--<style name="PreferenceThemeOverlay">-->
+    <!--<item name="preferenceScreenStyle">@style/Preference.PreferenceScreen</item>-->
+    <!--<item name="preferenceFragmentStyle">@style/PreferenceFragment</item>-->
+    <!--<item name="preferenceCategoryStyle">@style/Preference.Category</item>-->
+    <!--<item name="preferenceStyle">@style/Preference</item>-->
+    <!--<item name="preferenceFragmentListStyle">@style/PreferenceFragmentList</item>-->
+    <!--</style>-->
+
+    <style name="Widget">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Widget.Label">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Widget.BigTitle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Widget.ToolbarText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:color">@color/white</item>
+    </style>
+
+    <style name="Widget.HashTag">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.Details" />
+
+    <style name="Widget.Details.Action">
+        <item name="android:scaleX">0</item>
+        <item name="android:scaleY">0</item>
+        <item name="android:background">@drawable/white_oval</item>
+        <item name="android:padding">@dimen/details_action_padding</item>
+    </style>
+
+    <style name="Widget.Label.ActionLabel">
+        <item name="android:alpha">0</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Widget.NumberText">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Widget.Title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="PopMovies.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="ButtonStyle">
+        <item name="android:textSize">@dimen/header_text</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_cta_button</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="proceedButtonStyle">
+        <item name="android:textSize">@dimen/header_text</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/button_selector</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="tv_list_header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/large_text</item>
+    </style>
+
+    <style name="tv_list_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/items_inbetween</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/medium_text</item>
+    </style>
+
+    <style name="parent_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="layout_item">
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+    </style>
+
+
+
+    <style name="PopMovies.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

@@ -1,0 +1,46 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/creategplayout"
+        android:layout_width="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="5dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true">
+        <TextView
+            android:id="@+id/plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlue"
+            android:text="+"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:layout_toRightOf="@id/plus"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:textColor="@color/colorBlue"
+            android:layout_height="wrap_content"
+            android:text="Create Group"
+            />
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/groups_recycler_view"
+        android:nestedScrollingEnabled="true"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/creategplayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" />
+
+</RelativeLayout>
+
+
