@@ -36,10 +36,10 @@ Features for the user after resitering successfully:
 You can [download](https://drive.google.com/uc?export=download&id=1D8xx4FX4onx4rrjow4zWKnjMcFxV3pD8) latest installable version of Go-Easy for Android.
   
 ## Screenshots  
-  <img  src="screenshots/a.png" width="270" height="450" >   <img src="screenshots/b.png" width="270" height="450">
- <img src="screenshots/d.png" width="270" height="450">
-   <img src="screenshots/e.png" width="270" height="450">   <img src="screenshots/g.png" width="270" height="450">
-        <img src="screenshots/i.png" width="270" height="450"> 
+  <img  src="screenshots/a.png" width="290" height="470" >   <img src="screenshots/b.png" width="290" height="470">
+ <img src="screenshots/d.png" width="290" height="470">
+   <img src="screenshots/e.png" width="290" height="470">   <img src="screenshots/g.png" width="290" height="470">
+        <img src="screenshots/h.png" width="290" height="470"> 
         
   
 ## Development  
