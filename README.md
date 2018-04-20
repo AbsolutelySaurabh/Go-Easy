@@ -6,7 +6,7 @@ The stress management android app built during a hackathon. Involving chatbots, 
      GoEasy
   <br>
 </h1>
-<h3 align="center">The one-stop solution to all king of stress.</h3>
+<h3 align="center">The one-stop solution to all kinds of stress.</h3>
 <p align="center">
   <a href="https://github.com/AbsolutelySaurabh/ShowCube#fork-destination-box">
     . Contribute .
