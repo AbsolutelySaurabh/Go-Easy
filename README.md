@@ -36,10 +36,10 @@ Features for the user after resitering successfully:
 You can [download](https://drive.google.com/uc?export=download&id=1D8xx4FX4onx4rrjow4zWKnjMcFxV3pD8) latest installable version of Go-Easy for Android.
   
 ## Screenshots  
-  <img  src="screenshots/a.png" width="210" height="350" >   <img src="screenshots/b.png" width="210" height="350">
-  <img src="screenshots/c.png" width="210" height="350"> <img src="screenshots/d.png" width="210" height="350">
-   <img src="screenshots/e.png" width="210" height="350">   <img src="screenshots/g.png" width="210" height="350">
-        <img src="screenshots/i.png" width="210" height="350"> 
+  <img  src="screenshots/a.png" width="220" height="370" >   <img src="screenshots/b.png" width="220" height="370">
+ <img src="screenshots/d.png" width="220" height="370">
+   <img src="screenshots/e.png" width="220" height="370">   <img src="screenshots/g.png" width="220" height="370">
+        <img src="screenshots/i.png" width="220" height="370"> 
         
   
 ## Development  
@@ -83,7 +83,7 @@ WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 License for the specific language governing permissions and limitations under
 the License.  
   ```
-  [themoviedb](http://www.themoviedb.com/)
+  [api.ai](http://www.api.ai/)
 
 ---
 
